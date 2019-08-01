@@ -1,0 +1,17 @@
+<h1>Lista de Posts</h1>
+<a href="/create">
+    <button>CRIAR POSTAGEM</button>
+</a>
+<br>
+
+{{#each posts}}
+    <small>{{createdAt}}</small>
+    <h2>{{title}}</h2>
+    <h3>{{description}}</h3>
+
+    <a href="delete/{{id}}">
+        <button>DELETAR</button>
+    </a>
+
+    <hr>
+{{/each}}

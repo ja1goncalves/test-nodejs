@@ -1,0 +1,11 @@
+{
+    "secret": "yfkjhbsfyuvbdsfhvbdosyrbdsfvjbsurb",
+    "trasport": {
+        "host": "smtp.mailtrap.io",
+        "port": 2525,
+        "auth": {
+            "user": "88467672378ab6",
+            "password": "e359ebed4896b7"
+        }
+    }
+}
